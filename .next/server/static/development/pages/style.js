@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -151,7 +151,14 @@ const StyleView = () => {
       lineNumber: 13
     },
     __self: undefined
-  }));
+  }), __jsx("h1", {
+    className: "p-4 bg-purple-300",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: undefined
+  }, "I'm from tailwind"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (StyleView);
@@ -187,7 +194,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/style.js ***!
   \******************************/
