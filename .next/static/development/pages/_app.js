@@ -3619,18 +3619,21 @@ var myApp = /*#__PURE__*/function (_App) {
     value: function render() {
       var _this$props = this.props,
           pageProps = _this$props.pageProps,
-          Component = _this$props.Component;
+          Component = _this$props.Component; // console.log(pageProps, Component);
+
       return __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx(context_q__WEBPACK_IMPORTED_MODULE_10__["Provider"], {
-        defaultState: {},
+        defaultState: {
+          isAsideOpen: false
+        },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 14
         },
         __self: this
       }, __jsx(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 17
         },
         __self: this
       }))));

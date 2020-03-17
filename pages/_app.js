@@ -7,11 +7,12 @@ import { Provider } from 'context-q';
 class myApp extends App {
   render() {
     const { pageProps, Component } = this.props;
+    // console.log(pageProps, Component);
 
     return (
       <>
         <Provider defaultState={{
-
+            isAsideOpen: false,
         }}>
           <Component {...pageProps} />
         </Provider>

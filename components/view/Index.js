@@ -18,6 +18,16 @@ const IndexView = () => {
                             <a>Sing-in</a>
                         </Link>
                     </li>
+                    <li>
+                        <Link route={"/event"}>
+                            <a>Event</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link route={"/tabs"}>
+                            <a>Tabs</a>
+                        </Link>
+                    </li>
                 </ul>
             </nav>
         </>

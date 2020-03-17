@@ -450,18 +450,21 @@ class myApp extends next_app__WEBPACK_IMPORTED_MODULE_3___default.a {
     const {
       pageProps,
       Component
-    } = this.props;
+    } = this.props; // console.log(pageProps, Component);
+
     return __jsx(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, __jsx(context_q__WEBPACK_IMPORTED_MODULE_4__["Provider"], {
-      defaultState: {},
+      defaultState: {
+        isAsideOpen: false
+      },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
+        lineNumber: 14
       },
       __self: this
     }, __jsx(Component, _extends({}, pageProps, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 17
       },
       __self: this
     }))));
